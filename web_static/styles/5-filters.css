@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: center;
 }
 
 button {
@@ -23,4 +24,28 @@ button {
 
 button:hover {
     opacity: 0.9;
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+    margin: 2px 20px;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 2px 20px;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
 }
